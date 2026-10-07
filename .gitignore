@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# AI stuff
+AGENTS.md
+
+# Local docs
+docs/
+
+# Xcode / Swift
+DerivedData/
+build/
+.build/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+.swiftpm/
+*.dSYM
+*.dSYM.zip
+
+# Output of scripts/make-app.sh
+dist/

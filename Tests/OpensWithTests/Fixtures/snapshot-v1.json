@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-02T08:54:32Z",
+  "entries": [
+    {
+      "id": "ext:.pdf",
+      "displayName": ".pdf",
+      "kind": "fileExtension",
+      "uti": "com.adobe.pdf",
+      "category": "documents",
+      "defaultApp": {
+        "bundleID": "com.apple.Preview",
+        "displayName": "Preview",
+        "bundleURL": "file:///System/Applications/Preview.app",
+        "exists": true
+      },
+      "alternativeApps": [
+        {
+          "bundleID": "com.google.Chrome",
+          "displayName": "Google Chrome",
+          "bundleURL": "file:///Applications/Google%20Chrome.app",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "url:mailto",
+      "displayName": "mailto:",
+      "kind": "urlScheme",
+      "category": "urlSchemes",
+      "defaultApp": {
+        "bundleID": "com.dead.Mailer",
+        "displayName": "Dead Mailer",
+        "exists": false
+      },
+      "alternativeApps": []
+    }
+  ]
+}

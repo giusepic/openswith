@@ -1,0 +1,38 @@
+--------------------------------------------------------------------------------
+bundle id:                  Preview (0x100)
+path:                       /System/Applications/Preview.app
+identifier:                 com.apple.Preview
+--------------------------------------------------------------------------------
+bundle id:                  Mail (0x3f4)
+path:                       /System/Applications/Mail.app
+identifier:                 com.apple.mail
+--------------------------------------------------------------------------------
+bundle id:                  CoreTypes (0x2b8)
+path:                       /System/Library/CoreServices/CoreTypes.bundle
+identifier:                 com.apple.CoreTypes
+--------------------------------------------------------------------------------
+type id:                    com.adobe.pdf (0x3cec)
+bundle:                     CoreTypes (0x2b8)
+uti:                        com.adobe.pdf
+conforms to:                public.data, public.composite-content
+tags:                       .pdf, 'PDF ', application/pdf, "Apple PDF pasteboard type"
+--------------------------------------------------------------------------------
+type id:                    public.heic (0x3d00)
+bundle:                     CoreTypes (0x2b8)
+uti:                        public.heic
+conforms to:                public.heif-standard
+tags:                       .heic, .heif, image/heic, image/heif
+--------------------------------------------------------------------------------
+claim id:                   Email Address URL (0xa10)
+rank:                       Default
+bundle:                     Mail (0x3f4)
+flags:                      apple-default  apple-internal  url-type (0000000000000045)
+roles:                      Viewer (0000000000000002)
+bindings:                   mailto:
+--------------------------------------------------------------------------------
+claim id:                   Multi-scheme claim (0xb1c)
+rank:                       Default
+bundle:                     Mail (0x3f4)
+flags:                      url-type
+roles:                      Editor (0000000000000004)
+bindings:                   tel:, sms:
